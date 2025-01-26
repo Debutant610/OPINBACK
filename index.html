@@ -40,3 +40,47 @@
     <h2>Nos produits populaires</h2>
     <p>Découvrez les meilleures offres sur OPINBACK !</p>
 </section>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPINBACK - Analyse</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Bibliothèque pour graphiques -->
+</head>
+<body>
+  <header>
+    <h1>OPINBACK - Analyses de Données</h1>
+  </header>
+
+  <main>
+    <!-- Section d'analyse -->
+    <section class="data-analysis">
+      <h2>Ventes Totales</h2>
+      <div class="sales-summary">
+        <p>0,00 €</p>
+        <p>26 janvier 2025</p>
+      </div>
+
+      <!-- Graphique pour les ventes -->
+      <canvas id="salesChart" width="400" height="200"></canvas>
+    </section>
+
+    <section class="sales-channels">
+      <h2>Ventes par Canal</h2>
+      <ul>
+        <li>Site Web : 0 €</li>
+        <li>Marketplace : 0 €</li>
+        <li>Mobile : 0 €</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 OPINBACK</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
